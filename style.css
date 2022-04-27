@@ -1,0 +1,113 @@
+/* CSS FILE ORGANISATION.
+--> The file is organised into three sections : 
+1. Section 1 is default HTML ELEMENTS.
+2. Section 2 is bootstrap classes and ids.
+3. Section 3 is custom created classes and ids.
+--> The user created css code appears in the same order as seen in the html file.
+--> css properties are ordered in an alphabetical order
+*/
+
+/* ################################ SECTION 1 ###################################### */
+
+/* ===================================
+========== HTML ELEMENTS ==========
+=================================== */
+body
+{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+
+/* ################################ SECTION 2 ###################################### */
+
+/* ===================================
+============ BOOTSTRAP ============
+=================================== */
+.container-fluid
+{
+    padding : 7% 10%;
+}
+
+/* ################################ SECTION 3 ###################################### */
+
+/* ============================================
+========== CUSTOM CLASSES AND IDS ==========
+============================================ */
+.testimonial-container
+{
+    position: relative;
+    border-radius: 2%;
+    padding: 25px 40px;
+    z-index: -1;
+}
+
+.user-name
+{
+    font-size: 0.8rem;
+    margin-left: 45px;
+}
+
+.user-img
+{
+    width: 30px;
+    float: left;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: white;
+}
+
+.verified
+{
+    font-size: 0.68rem;
+    opacity: 0.5;
+    margin-left: 45px;
+    position: relative;
+    bottom: 8px;
+}
+
+.overview
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.review
+{
+    font-size: 0.8rem;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.txt-white
+{
+    color: white;
+}
+
+.bg-moderate-violet
+{
+    background-color: hsl(263, 55%, 52%);
+}
+
+.bg-dark-grayish-blue
+{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.bg-dark-blackish-blue
+{
+    background-color: hsl(219, 29%, 14%);
+}
+
+.bg-white
+{
+    background-color: white;
+}
+
+.quote-img
+{
+    position: absolute;
+    right: 20%;
+    top: 0;
+    z-index: -1;
+}
