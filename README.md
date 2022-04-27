@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/rishabh2011/Tip-Calculator-)
-- Live Site URL: [Site](https://rishabh2011.github.io/Tip-Calculator-/)
+- Solution URL: [Github](https://github.com/rishabh2011/Testimonials-Grid)
+- Live Site URL: [Site](https://rishabh2011.github.io/Testimonials-Grid/)
 
 ## My process
 
